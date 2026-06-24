@@ -403,6 +403,46 @@ nav a:hover {
     margin-top: 1rem;
 }
 
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    margin-top: 1.25rem;
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.85rem 1rem;
+    border-radius: 999px;
+    border: 1px solid rgba(31, 58, 138, 0.16);
+    background: rgba(255, 255, 255, 0.96);
+    color: var(--primary);
+    font-weight: 700;
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-link:hover {
+    transform: translateY(-2px);
+    background: rgba(31, 58, 138, 0.08);
+    box-shadow: 0 16px 30px rgba(31, 58, 138, 0.08);
+}
+
+.link-icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+}
+
+.contact-link svg {
+    width: 1rem;
+    height: 1rem;
+}
+
 .footer-content {
     padding: 1.75rem 0;
     text-align: center;
